@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#canvasContainer {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+canvas {
+    background-color: #fff;
+    transform-origin: top left;
+    transition: transform 0.2s;
+    border: 1px solid #000;
+    width: 80vw;
+    height: 80vh;
+    margin-bottom: 20px;
+}
+
+#colorPicker {
+    padding: 0;
+    border: none;
+    height: 35px;
+    width: 55px;
+}
+
+.buton {
+    font-size: 15px;
+    height: 30px;
+    width: 45px;
+    margin-right: 5px;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    margin: 0 10px;
+}
+
+#color {
+    font-size: 20px;
+}
