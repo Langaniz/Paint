@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Çizim Uygulaması</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/4431f7ef33.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="container">
+    <div id="canvasWrapper">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div id="controls">
+        <i id="color" class="fa-solid fa-palette"></i><input type="color" id="colorPicker" value="#000000">
+        <input type="range" id="thicknessSlider" min="1" max="30" value="1">
+        <button class="buton clear" id="clearButton"><i class="fa-solid fa-trash-can"></i></button>
+        <button class="buton erase" id="eraseButton"><i class="fa-solid fa-eraser"></i></button>
+        <button class="buton pencil" id="pencilButton"><i class="fa-solid fa-paintbrush"></i></button>
+        <button class="buton save" id="saveButton"><i class="fa-solid fa-floppy-disk"></i></button>
+        <button class="buton fill" id="fillButton"><i class="fa-solid fa-paint-roller"></i></i></button>
+        <input type="file" id="fileInput" accept="image/*">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
